@@ -1,0 +1,104 @@
+Document: System Requirement Specification Document
+
+Title : Online Laundry Management System
+Team :  customer, delivery team, shop keeper, laundry staff
+Objective :  
+The online laundry management system for web application that aims to provide as ease to employee(laundry manager) for managing the order details of the customers, bill management and services. This will improve the handling of the picking and dropping of orders based on the orders. At the same time customers can also browse through the services. 
+
+Scope:
+This system allow customers to use the online services   
+The manager will provide auto generated bill by the web application and can calculate per month revenue. Customer willable to review order history and can able to choose the pick slot.
+
+Constraint: Customer should be present at pick up address at given time slot.
+
+Functional Requirements:
+Any visiting user (anonymous) will be able to view services at the laundry. Registered user will be able to avail services from the web application. 
+Registered laundries will be able to promote the services provided at their laundry. 
+Catalogue of services at each laundry maintained by the system. 
+Customers will be able to see the reviews.
+Laundries will be able to request to add or remove services from their particular service catalogue.
+development team will be able to approve or reject the request made by the laundry owner to change their service catalogue.
+laundry owner will able to update the status of availability of the services (fully booked or available).
+Laundry owner will able to update their terms and conditions, along side with their facilities.
+Laundry owner will be able to update order status (1. Yet to be washed 2. Washed 3. Out for delivery etc.). 
+Laundry owner will be able to track payment history and the frequent services opted by the customers.
+Laundry owner will be able to manage the record of the staffs they have hired.(details of staff).
+
+Register user can place order and can request for the pickup and drop service of specific services (iron, washing, shoe cleaning, dry cleaning).
+Register users can view order history and payable amount.
+User will be able to choose between COD and online mode.
+Register customers will able to give the feedbacks and can request laundries for changes in services.
+Register customers will be able to manage his profile maintained by system and will able to change his details if required. 
+Customer will be able to cancel his placed order within 2 hours. 
+Customer will be able to choose the pickup and delivery time slot.
+
+Application will calculate payable amount automatically by the weight of the clothes/number of items and type of services.
+Application will be able to calculate the revenue of the laundry.
+
+Delivery person will be able to change the status of product delivered.
+Sales team will be able to monitor shipment done by their vendors.
+Sales team will be able to track product delivery for particular customer.
+
+
+Nonfunctional Requirement:
+
+Security:
+Registered Customer will be allowed to place an order. Each customer will be to access system  through authentication process. System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Roll). Using SSL in all transactions  which will be performed customer. 
+It would protect confidential information shared by system to customer of Shared by customer to system.
+System will automatically log of  all customer after some time due to inactiveness.
+System will block operations for inactive  customer and would redirect for authentication.
+System  will internally maintain secure communication channel between Servers ( Web Servers, App Servers, database Server)
+Sensitive data will be always encrypted across communication.
+User proper firewall to protect servers from out side fishing, vulnerable attacks.
+
+
+Reliability:
+The system will backup business data on regular basis and recover in short time duration to keep system operational Continuous updates are maintained, continuous Administration is done to keep system operational.
+During peak hours system will maintain same user experience by managing load balancing .
+
+Availability
+uptime:   24* 7  available
+		 99.999%
+
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online laundry portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Administrative tools provided by Servers.
+Separate environment will be maintained for system for isolation in  production, testing, and development.
+
+Portability:
+ PDA: Portable Device Application
+ System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online laundry portal.
+ System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+only registered customer will be able to place an order after authentication.
+Laundry owner will be able to view monthly and annual business Growth through customized dashboard.
+
+Durability:
+System will retain customer order placement for 15 minutes  even though customer loose internet connection and join again.
+System will implement backup and recovery for retaining customers data, bussiness operation data and business data over time.
+
+Efficiency:
+On weekends and holidays maximum number of users  will place order, view services  with same response time.
+System will be able to manage all transactions with isolation.
+Modularity:
+System will designed and developed using reusable, independent or dependent business senarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+System will contain order processing, payment processing, Delivery module, membership and Roles management modules.
+	
+Scalability:
+System will be able  to  provide  consistent user experience to customer as well as visitors irrespective of load.
+
+Safety:
+Online laundry portal will be secure from malicious attack, fishing.
+Online laundry portal functionalities are protected from outside with proper firewall configuration.
+Online laundry portal will be always kept updated with latest anti-virus software.
+Business data will be backed up periodically to ensure safety of data using incremental back up strategy.
+Role based security will be applied for Application data and operations accessibility.
+
+
+
+
+
+
