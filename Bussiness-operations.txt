@@ -26,5 +26,5 @@ Update availabilty of services and terms & conditions
 Update order status
 Track payment status and frequent services opted
 Manage record of staff
-Change status of delivered order
+Change status of delivered order.
 
