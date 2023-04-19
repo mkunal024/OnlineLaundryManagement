@@ -1,0 +1,27 @@
+1. Registration page for customer
+ Description: As a user I want to register myself to avail services of laundries
+
+2. Create user login page
+Description: User can login multiple times once registration is done
+All the functions related to booking services will be carried out only for logged in users
+
+3. Registration page for laundry
+Description: Laundry owner will register his laundry to promote services
+
+4. Catalog updation page for Laundry owners
+Description: Laundry owners will be able to request to add or remove services from their particular service catalogue.
+
+5. Review and rating page for registered customers
+Description: Registered customers will be able to give the rating and review to services
+
+6. Order history and order status page for registered customers
+Description: User will be able to see the order history and status of current order.
+
+7. View services of different laundries
+Description: Any visiting user will be able to view services at the laundry. And registered user can avail services
+
+8. Order placement page
+Description: Register user can place order and can request for the pickup and drop service of specific services (iron, washing, shoe cleaning, dry cleaning).
+
+9. Payment details page
+Description: User will be able to choose payment option between COD and online mode.
