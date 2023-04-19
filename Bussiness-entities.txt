@@ -1,0 +1,16 @@
+Business Entities :
+
+1. Customer :
+      Customer ID, Customer name,Customer Mobile no., Customer Email, Customer Address.
+2. Laundry Owner: 
+      Laundry ID, Owner name, Owner address, Owner email, Owner contact, Laundry name
+3. Laundry Employee:
+      Employee ID, Employee Name, Employee address, Employee salary, Employee contact 
+4. Delivery Staff: 
+      Delivery staff name, Delivery Type(pickup/drop), Delivery ID
+5. Services: 
+      Service ID, Services name, Service price
+6. Order Status: 
+      Order ID, Order Quantity, Order status
+7. Placed order: 
+      Order weight,order amount, payment details, payment ID 

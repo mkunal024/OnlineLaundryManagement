@@ -1,0 +1,30 @@
+Business operations to be automated by online laundry management application.
+
+Create account
+Validate users
+View services
+Avail services
+See reviews
+Place order
+Request pickup and drop services
+View order history and payable amount
+Choose payment mode(COD/online)
+Give feedback
+Request changes in services
+Manage profile and can change profile details
+Cancel order
+Choose pickup/delivery time slot
+
+
+Laundry registration
+Promote services
+Catalog maintainance
+Add or remove services 
+Recommend services
+Get customer details
+Update availabilty of services and terms & conditions
+Update order status
+Track payment status and frequent services opted
+Manage record of staff
+Change status of delivered order
+
